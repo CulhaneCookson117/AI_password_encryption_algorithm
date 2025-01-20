@@ -1,5 +1,6 @@
 The following algorithm designed to enhance password security by employing multiple encryption techniques. This project combines innovation, technical proficiency, and real-world application to tackle one of today’s most pressing cyber-security challenges.
 
+
 Key Features:
 Multiple Encryption Techniques: Utilizes AES, RSA, DES, and Blowfish encryption methods to provide layered security, making it extremely difficult for attackers to crack.
 
