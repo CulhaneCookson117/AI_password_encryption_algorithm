@@ -2,7 +2,7 @@ The following algorithm designed to enhance password security by employing multi
 
 
 Key Features:
-Multiple Encryption Techniques: Utilizes AES, RSA, DES, and Blowfish encryption methods to provide layered security, making it extremely difficult for attackers to crack.
+Multiple Encryption Techniques: Utilizes AES, RSA, ChaCha20, and Twofish encryption methods to provide layered security, making it extremely difficult for attackers to crack.
 
 Dynamic Encryption: Randomly encrypts segments of the password using different methods, adding an extra layer of unpredictability and security.
 
