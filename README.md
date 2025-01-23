@@ -16,6 +16,7 @@ Audit Logging: Logs encryption events for auditing purposes, providing a detaile
 
 
 WORKFLOW BY LAYERS
+
 Layer 1: Input Layer
 Password Input: The user inputs their password into the system.
 
