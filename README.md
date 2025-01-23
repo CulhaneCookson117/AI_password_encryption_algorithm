@@ -14,6 +14,32 @@ Multi-Factor Authentication (MFA) Simulation: Incorporates a lockout mechanism a
 
 Audit Logging: Logs encryption events for auditing purposes, providing a detailed trail for security reviews.
 
+
+WORKFLOW BY LAYERS
+Layer 1: Input Layer
+Password Input: The user inputs their password into the system.
+
+Layer 2: Pre-Processing Layer
+Salting and Hashing: The system adds a unique salt to the password and hashes it using SHA-256 to ensure uniqueness and security.
+
+Layer 3: Machine Learning Layer
+Dynamic Method Selection: The trained machine learning model (e.g., Random Forest Classifier) predicts the most suitable encryption method based on features like segment length, data type, and previous success.
+
+Layer 4: Encryption Layer
+Segment Encryption: The password is split into segments. Each segment is then encrypted using the method selected by the machine learning model (AES, RSA, ChaCha20, or Twofish).
+
+Layer 5: Anomaly Detection Layer
+Proactive Threat Detection: The system continuously monitors for anomalies, detecting suspicious activities such as unusual login attempts or multiple failed decryption attempts.
+Automated Response: Upon detecting a threat, the system can automatically lock accounts, require additional authentication, or prompt users to reset their passwords.
+
+Layer 6: Key Management Layer
+Secure Key Generation: Cryptographic keys for AES, ChaCha20, and Twofish are securely generated.
+Regular Scheme Updates: The system periodically updates encryption schemes and keys to maintain robust security.
+
+Layer 7: Audit Logging Layer
+Detailed Audit Logs: All encryption and decryption events are logged for auditing and compliance purposes.
+
+
 Benefits:
 Enhanced Security: Multiple layers of encryption and regular updates make the system robust against attacks.
 
