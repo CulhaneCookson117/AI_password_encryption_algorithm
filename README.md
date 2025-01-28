@@ -24,6 +24,7 @@ Storage:
 The combined encrypted password is securely stored in the database. This ensures that the password is protected and can only be decrypted by the system.
 
 Key Features
+
 Multi-layer Encryption: Each segment of the password is encrypted with multiple layers, adding significant complexity and security.
 Segment Masking: Different encryption methods are applied to each segment, making it harder for attackers to decrypt the entire password.
 Machine Learning: The system uses machine learning models to predict the best encryption methods and the number of layers for each segment, optimizing security.
