@@ -1,4 +1,4 @@
-The AI_Password_Encryption_Algorithm is designed to provide robust security for passwords by using a combination of segmentation, segment masking, multi-layer encryption, and machine learning-based method prediction. This algorithm offers significant benefits to users by allowing them to create passwords with greater flexibility and enhanced security.
+The AI_Password_Encryption_Algorithm is designed to provide robust security for passwords by using a combination of segmentation principles and machine learning-based method prediction. This algorithm offers significant benefits to users by allowing them to create passwords with greater flexibility and enhanced security.
 
 Here's how it works step-by-step:
 
